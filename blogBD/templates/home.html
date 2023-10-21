@@ -16,9 +16,8 @@
             {% endif %}
         {% endif %}
         
-        </small> </br>
-    {{post.body|safe|slice:"200"}}</li> <!--safe metini girerken blog sayfasında p veya strong eklememize yarıyor.-->
-
+    </small> </br>
+    {{post.snippet}}</li>  <!--safe metini girerken blog sayfasında p veya strong eklememize yarıyor.-->
 {% endfor %}
 </ul>
 
